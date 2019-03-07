@@ -1,0 +1,47 @@
+{
+  "name": "oauth2-authorization-server-express",
+  "version": "0.0.0",
+  "description": "OAuth 2.0 authorization server implementation using express",
+  "keywords": [
+    "oauth2",
+    "express"
+  ],
+  "homepage": "https://github.com/sn42/oauth2-authorization-server-express#readme",
+  "bugs": {
+    "url": "https://github.com/sn42/oauth2-authorization-server-express/issues"
+  },
+  "license": "MIT",
+  "author": "sn42",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sn42/oauth2-authorization-server-express.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1"
+  },
+  "devDependencies": {
+    "@types/compression": "0.0.36",
+    "@types/express": "^4.16.1",
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-nodemon": "0.0.32",
+    "@types/helmet": "0.0.42",
+    "@types/node": "^11.10.5",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^5.0.0",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.13.1",
+    "typescript": "^3.3.3333"
+  },
+  "private": true
+}
